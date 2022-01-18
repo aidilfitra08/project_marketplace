@@ -1,0 +1,133 @@
+
+.bar-atas {
+    overflow: hidden;
+    
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    height: fit-content;
+    width: 100%;
+    
+}
+.bar-atas-1 {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    display: block;
+}
+
+.tulisan {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    height: 80px;
+    width: 100%;
+}
+
+.sub-menu {
+    position: relative;
+    padding-top: 23px;
+    text-align: center;
+
+    color: white ;
+}
+
+.sub-menu a {
+    text-decoration: none !important;
+
+    color: white;
+}
+
+.sub-menu a:hover {
+    color: #f3c600;
+}
+
+.dropdown {
+    position: relative;
+  display: inline-block;
+}
+.dropdown-products {
+    display: none;
+    position: absolute;
+    
+    background-color: #333;
+    text-align: left;
+    margin-top: 33px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-products a {
+    color: white;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-products a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-products {display: block;}
+
+
+.search-button {
+    position: relative;
+    float: right;
+    top: 0;
+    cursor: pointer;
+    z-index: 1;
+    margin: 23px;
+}
+
+.search-img {
+    width: 30px;
+    height: 30px;
+}
+
+#search {
+    display: none;
+    position: fixed;
+    overflow: auto;
+    height: 200%;
+    width: 100%;
+    background-color: rgb(0, 0, 0); 
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+    
+}
+
+.barang a {
+    text-decoration: none !important;
+    margin: 10px;
+    color: black !important;
+    
+}
+
+.thumbnail {
+    height: 380px;
+    width: auto;
+    padding: 30px;
+}
+
+
+.footer {
+    color: white;
+    background-color:  #333;
+    height: 400px;
+    margin-top: 400px;
+    margin-right: 20px;
+}
+
+.footer a  {
+    text-decoration: none !important;
+    color: white;
+}
+
+@media only screen and (max-width: 770px){
+    .sub-menu {display: none;}
+}
+

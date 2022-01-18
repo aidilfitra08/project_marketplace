@@ -1,0 +1,14 @@
+.about img {
+    border-radius: 100%;
+    /* border: 10px #333 solid; */
+    width: 100%;
+    box-shadow: 1px 1px 7px black;
+}
+
+.about {
+    margin-top: 200px;
+    box-shadow: 1px 1px 15px black;
+    padding: 100px;
+    padding-top: 70px;
+    color: #333;
+}

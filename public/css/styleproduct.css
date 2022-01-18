@@ -1,0 +1,28 @@
+.ukuran {
+    display: none;
+    
+}
+
+.warna {
+    display: block;
+}
+
+#warna-klik {
+
+    padding-bottom: 10px;
+    padding-right: 60px;
+    cursor: pointer;
+    border-bottom: solid 2px #bdbdbd;
+}
+
+#ukuran-klik {
+    padding-bottom: 10px;
+    padding-right: 60px;
+    cursor: pointer;
+    border-bottom: solid 2px #bdbdbd;
+}
+
+#komentar {
+    border-radius: 10px;
+    resize: none;
+}
